@@ -1,0 +1,38 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.akramkhan.lunch",
+            "nativeLanguage": "en"
+        },
+        "jhipsterVersion": "5.8.1",
+        "applicationType": "monolith",
+        "baseName": "lunch",
+        "packageName": "com.akramkhan.lunch",
+        "packageFolder": "com/akramkhan/lunch",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": "spring-websocket",
+        "databaseType": "sql",
+        "devDatabaseType": "h2Disk",
+        "prodDatabaseType": "mysql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "gradle",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "MjU1MTQzNjg1Njk4ZjEwYThjODhjOWE2OGEyYjcxNjhmMTQ3NDRjMjIzYjMwMTIzMzI0YzE0N2IzZGQ5YjJhYmQwOWYxZjVhMDgwNTI4YTBhZDBhNzdmM2IyODJiMGYxZDUyZGYyM2NkZjUwMWUwMzRhNDUzYThhZTNjZDMzNmQ=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": ["protractor"],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "en",
+        "languages": ["en", "bn"]
+    }
+}
