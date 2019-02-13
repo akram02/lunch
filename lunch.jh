@@ -1,0 +1,15 @@
+entity Lunch {
+	year Integer
+    month Integer
+    day Integer
+    date Instant
+    status Integer
+}
+relationship ManyToOne {
+	Lunch{user} to User
+}
+//relationship ManyToMany {
+//	Job{task(title)} to Task{job}
+//}
+paginate Lunch with infinite-scroll
+service all with serviceClass
